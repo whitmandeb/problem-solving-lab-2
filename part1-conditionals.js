@@ -28,7 +28,7 @@ if (quantity > 10) {
 let password = "letmein"; // or use prompt
 // Print "Access granted" or "Access denied"
 
-if (password == "please"){
+if (password === "please"){
     console.log("Access Granted")
 }else {
     console.log("Access Denied")
