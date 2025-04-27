@@ -2,11 +2,13 @@
 
 
 function sayHello() {
-    console.log("Hello!");
+    let messageElement = document.getElementById ("message");
+    messageElement.innerHTML = "Hello";
 }
 
 
 function showName() {  
-    let new_string = document.getElementById("nameInput").value;
-    alert("Hello " + new_string);
+    let nameInput = document.getElementById("nameInput").value;
+    alert("Hello " + nameInput);
 }
+
