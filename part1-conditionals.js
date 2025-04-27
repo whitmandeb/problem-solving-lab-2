@@ -16,7 +16,6 @@ if (score > 90) {
 }
 console.log(score);
 
-
 // 2. Pizza Quantity Warning
 
 let quantity = 12;
@@ -24,7 +23,6 @@ let quantity = 12;
 if (quantity > 10) {
   console.log("Warning!");
 }
-
 
 // 3. Login Simulator
 
