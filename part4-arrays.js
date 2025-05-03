@@ -3,9 +3,9 @@
 let favoriteFoods = ["cheez its", "pizza", "steak", "seafood", "fried chicken"];
 console.log(favoriteFoods);
 console.log(favoriteFoods[0]);
-console.log(favoriteFoods[4]);
+//console.log(favoriteFoods[4]);
 favoriteFoods.push("chips");
-console.log(favoriteFoods);
+console.log(favoriteFoods[favoriteFoods.length - 1]);
 
 // Part 2 Guest List
 
